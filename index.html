@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCHD ples 2024</title>
+
+    <link rel="icon" type="image/x-icon" href="favicon_black.png">
+    <!-- <link rel="icon" type="image/x-icon" href="favicon.png"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        :root {
+            --main-h: 80vh;
+            --main-w: min(90vw, 60vmin);
+            --font-c: rgb(212, 212, 212);
+            --bg: #080808;
+        }
+
+        body {
+            padding: 0%;
+            overflow: hidden;
+
+            background: radial-gradient(circle at center, #554800 0%, var(--bg) 40%);
+            animation: rot1 40s linear 0s infinite forwards;
+
+            background-color: var(--bg);
+            background-repeat: no-repeat;
+        }
+
+        @keyframes rot1 {
+            0% {
+                background-position: -50vw 0vh;
+            }
+
+            1% {
+                background-position: -49.901336424778506vw -3.139525922981623vh;
+            }
+
+            2% {
+                background-position: -49.60573507915706vw -6.2666615718807686vh;
+            }
+
+            3% {
+                background-position: -49.11436256655961vw -9.36906557136452vh;
+            }
+
+            4% {
+                background-position: -48.42915810974051vw -12.434494150618056vh;
+            }
+
+            5% {
+                background-position: -47.552825897558456vw -15.450849463912764vh;
+            }
+
+            6% {
+                background-position: -46.488824412778875vw -18.40622733527472vh;
+            }
+
+            7% {
+                background-position: -45.24135278302294vw -21.28896423882717vh;
+            }
+
+            8% {
+                background-position: -43.815334208729816vw -24.087683329397013vh;
+            }
+
+            9% {
+                background-position: -42.21639653353438vw -26.791339341723603vh;
+            }
+
+            10% {
+                background-position: -40.45085003374027vw -29.38926218107312vh;
+            }
+
+            11% {
+                background-position: -38.52566251454307vw -31.87119903322639vh;
+            }
+
+            12% {
+                background-position: -36.44843181128742vw -34.2273548276511vh;
+            }
+
+            13% {
+                background-position: -34.22735580428304vw -36.44843089416898vh;
+            }
+
+            14% {
+                background-position: -31.871200065517513vw -38.52566166055758vh;
+            }
+
+            15% {
+                background-position: -29.389263264949456vw -40.45084924625802vh;
+            }
+
+            16% {
+                background-position: -26.791340472907564vw -42.21639581566319vh;
+            }
+
+            17% {
+                background-position: -24.08768450342435vw -43.815333563302815vh;
+            }
+
+            18% {
+                background-position: -21.288965451064527vw -45.24135221258733vh;
+            }
+
+            19% {
+                background-position: -18.406228580937956vw -46.48882391958591vh;
+            }
+
+            20% {
+                background-position: -15.4508507380858vw -47.552825483554535vh;
+            }
+
+            21% {
+                background-position: -12.434495448272337vw -48.429157776559514vh;
+            }
+
+            22% {
+                background-position: -9.369066887378777vw -49.11436231551645vh;
+            }
+
+            23% {
+                background-position: -6.266662901061304vw -49.605734911242486vh;
+            }
+
+            24% {
+                background-position: -3.139527260082769vw -49.90133634065522vh;
+            }
+
+            25% {
+                background-position: -0.0000013397448292514317vw -49.999999999999986vh;
+            }
+
+            26% {
+                background-position: 3.139524585880471vw -49.901336508901764vh;
+            }
+
+            27% {
+                background-position: 6.266660242700232vw -49.605735247071586vh;
+            }
+
+            28% {
+                background-position: 9.369064255350256vw -49.11436281760274vh;
+            }
+
+            29% {
+                background-position: 12.434492852963759vw -48.429158442921484vh;
+            }
+
+            30% {
+                background-position: 15.450848189739693vw -47.55282631156236vh;
+            }
+
+            31% {
+                background-position: 18.406226089611472vw -46.48882490597182vh;
+            }
+
+            32% {
+                background-position: 21.2889630265898vw -45.24135335345852vh;
+            }
+
+            33% {
+                background-position: 24.08768215536966vw -43.81533485415678vh;
+            }
+
+            34% {
+                background-position: 26.791338210539617vw -42.216397251405525vh;
+            }
+
+            35% {
+                background-position: 29.38926109719675vw -40.4508508212225vh;
+            }
+
+            36% {
+                background-position: 31.87119800093523vw -38.52566336852855vh;
+            }
+
+            37% {
+                background-position: 34.227353851019124vw -36.44843272840584vh;
+            }
+
+            38% {
+                background-position: 36.44842997705051vw -34.22735678091497vh;
+            }
+
+            39% {
+                background-position: 38.525660806572056vw -31.871201097808626vh;
+            }
+
+            40% {
+                background-position: 40.45084845877574vw -29.38926434882575vh;
+            }
+
+            41% {
+                background-position: 42.21639509779198vw -26.791341604091524vh;
+            }
+
+            42% {
+                background-position: 43.81533291787578vw -24.087685677451685vh;
+            }
+
+            43% {
+                background-position: 45.241351642151685vw -21.288966663301885vh;
+            }
+
+            44% {
+                background-position: 46.4888234263929vw -18.40622982660117vh;
+            }
+
+            45% {
+                background-position: 47.55282506955057vw -15.450852012258833vh;
+            }
+
+            46% {
+                background-position: 48.42915744337848vw -12.434496745926596vh;
+            }
+
+            47% {
+                background-position: 49.11436206447325vw -9.369068203393056vh;
+            }
+
+            48% {
+                background-position: 49.605734743327886vw -6.266664230241839vh;
+            }
+
+            49% {
+                background-position: 49.90133625653189vw -3.1395285971839146vh;
+            }
+
+            50% {
+                background-position: 49.99999999999993vw -0.000002679489658502862vh;
+            }
+
+            51% {
+                background-position: 49.90133659302498vw 3.139523248779319vh;
+            }
+
+            52% {
+                background-position: 49.60573541498608vw 6.266658913519674vh;
+            }
+
+            53% {
+                background-position: 49.11436306864582vw 9.369062939335992vh;
+            }
+
+            54% {
+                background-position: 48.42915877610241vw 12.434491555309485vh;
+            }
+
+            55% {
+                background-position: 47.55282672556621vw 15.450846915566647vh;
+            }
+
+            56% {
+                background-position: 46.488825399164725vw 18.40622484394822vh;
+            }
+
+            57% {
+                background-position: 45.241353923894074vw 21.28896181435239vh;
+            }
+
+            58% {
+                background-position: 43.815335499583725vw 24.08768098134227vh;
+            }
+
+            59% {
+                background-position: 42.216397969276656vw 26.791337079355586vh;
+            }
+
+            60% {
+                background-position: 40.4508516087047vw 29.389260013320378vh;
+            }
+
+            61% {
+                background-position: 38.52566422251398vw 31.871196968644057vh;
+            }
+
+            62% {
+                background-position: 36.44843364552424vw 34.22735287438712vh;
+            }
+
+            63% {
+                background-position: 34.22735775754687vw 36.44842905993201vh;
+            }
+
+            64% {
+                background-position: 31.871202130099697vw 38.525659952586516vh;
+            }
+
+            65% {
+                background-position: 29.38926543270206vw 40.45084767129342vh;
+            }
+
+            66% {
+                background-position: 26.791342735275435vw 42.21639437992074vh;
+            }
+
+            67% {
+                background-position: 24.08768685147899vw 43.81533227244872vh;
+            }
+
+            68% {
+                background-position: 21.288967875539196vw 45.24135107171602vh;
+            }
+
+            69% {
+                background-position: 18.406231072264397vw 46.488822933199856vh;
+            }
+
+            70% {
+                background-position: 15.4508532864319vw 47.55282465554656vh;
+            }
+
+            71% {
+                background-position: 12.434498043580879vw 48.4291571101974vh;
+            }
+
+            72% {
+                background-position: 9.369069519407281vw 49.11436181343002vh;
+            }
+
+            73% {
+                background-position: 6.266665559422393vw 49.605734575413244vh;
+            }
+
+            74% {
+                background-position: 3.1395299342850578vw 49.90133617240853vh;
+            }
+
+            75% {
+                background-position: 0.000004019234465549831vw 49.99999999999984vh;
+            }
+
+            76% {
+                background-position: -3.1395219116781643vw 49.901336677148166vh;
+            }
+
+            77% {
+                background-position: -6.266657584339143vw 49.60573558290054vh;
+            }
+
+            78% {
+                background-position: -9.369061623321686vw 49.11436331968888vh;
+            }
+
+            79% {
+                background-position: -12.43449025765518vw 48.42915910928331vh;
+            }
+
+            80% {
+                background-position: -15.450845641393588vw 47.552827139570034vh;
+            }
+
+            81% {
+                background-position: -18.406223598284942vw 46.488825892357596vh;
+            }
+
+            82% {
+                background-position: -21.288960602114983vw 45.24135449432959vh;
+            }
+
+            83% {
+                background-position: -24.087679807314895vw 43.81533614501062vh;
+            }
+
+            84% {
+                background-position: -26.791335948171564vw 42.21639868714775vh;
+            }
+
+            85% {
+                background-position: -29.389258929444vw 40.45085239618686vh;
+            }
+
+            86% {
+                background-position: -31.871195936352837vw 38.52566507649941vh;
+            }
+
+            87% {
+                background-position: -34.2273518977551vw 36.4484345626426vh;
+            }
+
+            88% {
+                background-position: -36.4484281428135vw 34.22735873417872vh;
+            }
+
+            89% {
+                background-position: -38.525659098600926vw 31.871203162390778vh;
+            }
+
+            90% {
+                background-position: -40.45084688381108vw 29.38926651657831vh;
+            }
+
+            91% {
+                background-position: -42.21639366204946vw 26.791343866459368vh;
+            }
+
+            92% {
+                background-position: -43.815331627021635vw 24.087688025506257vh;
+            }
+
+            93% {
+                background-position: -45.24135050128032vw 21.288969087776493vh;
+            }
+
+            94% {
+                background-position: -46.48882244000677vw 18.406232317927614vh;
+            }
+
+            95% {
+                background-position: -47.55282424154253vw 15.450854560604894vh;
+            }
+
+            96% {
+                background-position: -48.429156777016296vw 12.434499341235108vh;
+            }
+
+            97% {
+                background-position: -49.114361562386755vw 9.369070835421546vh;
+            }
+
+            98% {
+                background-position: -49.60573440749857vw 6.266666888602895vh;
+            }
+
+            99% {
+                background-position: -49.901336088285134vw 3.139531271386221vh;
+            }
+
+            100% {
+                background-position: -50vw -50vh;
+            }
+        }
+
+        main {
+            width: var(--main-w);
+            margin: calc(50vh - var(--main-h) / 2) auto;
+            height: var(--main-h);
+        }
+
+        img {
+            width: 100%;
+            margin: auto;
+            display: block;
+        }
+
+        h1,
+        h2,
+        h3,
+        p,
+        a {
+            color: var(--font-c);
+            text-align: center;
+            font-family: "Quicksand", "Helvetica";
+        }
+
+        .btn {
+            width: 75%;
+            padding: 1.5vh;
+
+            /* margin: 10vh auto 0% auto; */
+            margin: 1vh auto;
+            display: block;
+
+            text-align: center;
+            font-size: x-large;
+            text-decoration: none;
+
+            color: var(--font-c);
+            background-color: var(--bg);
+
+            border-radius: 2.5vh;
+            border: 5px solid var(--font-c);
+
+            transition: background-color .25s ease-in-out, color .25s ease-in-out;
+        }
+
+        .btn:hover {
+            color: var(--font-c);
+            background-color: rgb(53, 53, 53);
+        }
+
+        .btn:active {
+            color: var(--bg);
+            background-color: var(--font-c);
+        }
+
+        .btn.inactive {
+            pointer-events: none;
+            color: red;
+            font-weight: bold;
+        }
+
+        #fancyBG {
+            background: radial-gradient(circle at center, #FFD700 0%, var(--bg) 25%);
+            width: 100vw;
+            height: 100vh;
+            position: absolute;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <img src="./logo_inv.png">
+
+        <br>
+
+        <h1 style="white-space: nowrap;">GCHD PLES 2024</h1>
+        <h3>
+            Vítejte na stránkách maturitního plesu tříd 8.M, 8.J a 4.C
+            prestižního Gymnázia Christian Dopplera pro rok 2024.
+        </h3>
+
+        <br>
+        <h1>Lístky na ples: </h1>
+        <a class="btn inactive" href="https://www.google.com/">
+            COMING SOON
+        </a>
+
+        <br>
+        <h1>Merch: </h1>
+        <a class="btn inactive" href="https://www.google.com/">
+            COMING SOON
+        </a>
+    </main>
+</body>
+
+</html>
