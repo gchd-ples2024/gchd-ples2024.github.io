@@ -3,6 +3,8 @@ nav {
     background-color: var(--bg-col);
     padding-left: 30px;
     padding-right: 10px;
+
+    height: var(--nav-h) !important;
 }
 
 .navBar {
