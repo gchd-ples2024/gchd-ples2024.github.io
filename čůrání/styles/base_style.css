@@ -14,7 +14,7 @@
 	box-sizing: border-box;
 	font-family: "Poppins", sans-serif;
 
-    /* cursor: url('/public/cursor.png'), auto; */
+    cursor: url('../public/cursor_small.png'), auto;
 }
 
 body{
