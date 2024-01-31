@@ -2,7 +2,8 @@
 
 :root{
     --bg-col: #fff200;
-    --text-col: #ddd;
+    --text-col: #aaa;
+    --sec-col: #d8ce37;
 }
 
 * {
