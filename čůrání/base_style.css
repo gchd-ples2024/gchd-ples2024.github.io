@@ -1,9 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+:root{
+    --bg-col: #fff200;
+    --text-col: #ddd;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
 body{
     width: 100vw;
     height: 100vh;
     margin: 0;
-}
-
-body.liquidBG{
-    
 }
