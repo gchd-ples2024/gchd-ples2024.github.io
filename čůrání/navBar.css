@@ -8,15 +8,17 @@ nav {
 .navBar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav-links {
     list-style: none;
+    display: flex;
 }
 
 .nav-item a {
     display: inline-block;
-    padding: 10px 15px;
+    padding: 10px 20px;
     text-decoration: none;
     color: var(--text-col);
 }
