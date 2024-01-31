@@ -76,5 +76,5 @@ console.log(text)
   z-index: -1;
 
   background: var(--bg-col);
-  animation: liquidBG_animation 8s ease-in-out infinite;
+  animation: liquidBG_animation 3s ease-in-out infinite;
 }

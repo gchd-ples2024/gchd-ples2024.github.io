@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../public/favicon.png">
+
     <title>Velká kniha čůrání</title>
 
     <script
@@ -20,22 +22,26 @@
     <div class="liquidBG"></div>
 
     <nav class="navBar">
-      <p>Velká kniha čůrání</p>
+      <p id="navTitle" onclick="window.open('../index.html', '_self');" style="cursor: pointer;">Velká kniha čůrání</p>
       <ul class="nav-links">
         <li class="nav-item"><a href="../index.html">Domů</a></li>
-        <li class="nav-item"><a href="./reader.html">O močení</a></li>
-        <li class="nav-item"><a href="./reader.html">Výběr</a></li>
-        <li class="nav-item"><a href="./reader.html">Karaoke</a></li>
+        <li class="nav-item"><a href="./about.html">O močení</a></li>
+        <!-- <li class="nav-item"><a href="./reader.html">Velká kniha močeni</a></li> -->
+        <li class="nav-item"><a href="./selection.html">Výběr</a></li>
+        <li class="nav-item"><a href="./karaoke.html">Karaoke</a></li>
       </ul>
     </nav>
 
     <main>
       <div class="sidebar">Reklama</div>
       <div class="content">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non nam
-        inventore nulla ratione doloribus incidunt, necessitatibus ea natus
-        earum similique, atque quas provident quibusdam autem officiis saepe
-        iusto! Non, laborum.
+        <h2>Velká kniha čůrání - <i>Jakub Plachý</i></h2>
+        <br>
+        <object data="../public/velka-kniha-curani.pdf" type="application/pdf" width="100%" height="85%">
+          <p>
+            Velká kniha čůrání <a href="../public/velka-kniha-curani.pdf"></a>
+          </p>
+        </object>
       </div>
       <div class="sidebar">Reklama</div>
     </main>
