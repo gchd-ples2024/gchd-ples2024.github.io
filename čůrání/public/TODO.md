@@ -6,6 +6,5 @@ Script na náhodné vybrání reklamy + implementace na všechny stránky
 
 ## STRÁNKY
 "O močení" - vzít z wiki definici, info, obrázky apod.
-"Karaoke" - YT embed písničky čůrej sem a čůrej tam s textem pod tím (na reálný karaoke barvení textu seru)
 "Výběr" - vybrat oblíbene pasáže/obrázky z knížky a dát je na tuto stránku s popisky
 "Home" - nějaký basic info
