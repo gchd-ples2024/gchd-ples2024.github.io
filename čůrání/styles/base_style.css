@@ -57,3 +57,24 @@ main>* {
     margin: auto;
     box-shadow: gray 0 0 7px 7px;
 }
+
+.img_btn{
+    width: 100%;
+    object-fit: contain;
+    margin: auto;
+    box-shadow: gray 0 0 7px 7px;
+
+    width: 25vw;
+    display: inline-block;
+    margin: auto;
+
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.img_btn:hover{
+    box-shadow: rgb(90, 90, 90) 0 0 7px 7px;
+}
+
+.img_btn:active{
+    box-shadow: rgb(31, 31, 31) 0 0 7px 7px;
+}
