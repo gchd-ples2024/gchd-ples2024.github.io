@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
 
-:root{
+:root {
     --bg-col: #fff200;
     --text-col: #aaa;
     --sec-col: #d8ce37;
@@ -9,22 +9,22 @@
 }
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 
     cursor: url('../public/cursor_small.png'), auto;
 }
 
-body{
+body {
     width: 100vw;
     height: 100vh;
     margin: 0;
     overflow: hidden;
 }
 
-main{
+main {
     display: flex;
     width: 100vw;
     height: calc(100vh - var(--nav-h));
@@ -39,14 +39,21 @@ main>* {
     overflow: hidden;
 }
 
-.content{
+.content {
     display: block;
     overflow-x: hidden;
     overflow-y: scroll !important;
 
-    min-width: 55vw;
+    min-width: 60vw;
 }
 
-.sidebar{
-    min-width: 25vw;
+.sidebar {
+    min-width: 20vw;
+}
+
+.sidebar img {
+    width: 100%;
+    object-fit: contain;
+    margin: auto;
+    box-shadow: gray 0 0 7px 7px;
 }

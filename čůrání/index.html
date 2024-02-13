@@ -29,6 +29,7 @@
     <main>
         <div class="sidebar">
             Reklama
+            <img src="./public/reklamy/reklama_1.png">
         </div>
         <div class="content">
             <h1>Vítejte na "Velké stránce čůrání"!</h1>
@@ -51,5 +52,13 @@
         </div>
     </main>
 </body>
+
+<script src="./public/adverts.js"></script>
+<script>
+    placeAdvert(
+        Array.from(document.querySelectorAll(".sidebar")), 
+        "./public/reklamy"
+    );
+</script>
 
 </html>
