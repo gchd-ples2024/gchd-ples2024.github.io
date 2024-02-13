@@ -36,11 +36,17 @@
     <div class="content">
       <h2>Velká kniha čůrání - <i>Jakub Plachý</i></h2>
       <br>
-      <object data="../public/velka-kniha-curani.pdf" type="application/pdf" width="100%" height="85%">
-        <p>
-          Velká kniha čůrání <a href="../public/velka-kniha-curani.pdf"></a>
-        </p>
-      </object>
+
+      <div id="VKČ" style="width: 100%; height:85%;"></div>
+      <script>
+        let url = new URL(window.location);
+        let page = url.searchParams.get("page")
+        page = page ? page : "0";
+
+        PDFObject.embed("../public/velka-kniha-curani.pdf", "#VKČ", {
+          pdfOpenParams: { page: page }
+        });
+      </script>
     </div>
     <div class="sidebar">Reklama</div>
   </main>
